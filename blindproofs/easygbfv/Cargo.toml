@@ -6,7 +6,7 @@ edition = "2024"
 [dependencies]
 proofs = {path = "../../proofs"}
 fheanor = {path = "../../fheanor"}
-feanor-math = {git = "https://github.com/jannikspiessens/feanor-math.git", features = ["generic_tests", "unstable-enable", "mpir"] }
+feanor-math = {path = "../../feanor-math", features = ["generic_tests", "unstable-enable", "mpir"] }
 rand = "0.9.1"
 itertools = "0.14.0"
 tracing = "0.1.41"
